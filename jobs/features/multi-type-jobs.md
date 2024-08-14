@@ -1,4 +1,4 @@
-# 🔀 Multi-Type Jobs
+# 🔀 Multi-Type Jobs 
 
 AdvancedJobs allows for the creation of complex job configurations through the use of multi-type jobs. This feature enables a single job to progress through multiple action types, providing a more diverse and engaging gameplay experience.
 
