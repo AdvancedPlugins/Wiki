@@ -12,6 +12,7 @@
 * [Actions for Job creation](https://wiki.advancedplugins.net/actions/actions)
 * [Setting up Variables For Actions](https://wiki.advancedplugins.net/actions/setting-up-and-using-variables)
 * [Boosters](features/boosters.md)
+* [Mult-Type Jobs](features/multi-type-jobs.md)
 
 ## ⚙️ General
 
