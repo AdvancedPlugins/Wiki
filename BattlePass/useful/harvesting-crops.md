@@ -32,7 +32,7 @@ States: 0-7, 0 being when crop is just planted, 7 is when crop is fully grown. E
 
 ## Quest Examples
 
-### Example #1
+### Example #1 (using `harvest-crops`)
 
 With this example, you are required to break 10 fully grown potato plants
 
@@ -54,16 +54,17 @@ quests:
         - '&7Progress &e%total_progress%&7/&e%required_progress%'
 ```
 
-### Example #2
+### Example #2 (using `block-break`)
 
-In this example, we're harvesting 10 of fully grown nether warts. Since it's maximum age state is 3, for fully grown nether warts we're using `nether_wart:3`
+In this example, we're harvesting 10 of fully grown nether warts. Since it's maximum age state is 3, for fully grown nether warts we're using `nether_wart{age:3}`
 
-<pre class="language-yaml"><code class="lang-yaml">quests:
+```yml
+quests:
   1:
     name: 'Daily - Farmer' 
-   type: block-break
-<strong>    variable: potatoes{age: 7}
-</strong>    required-progress: 10 
+    type: block-break
+    variable: "nether_wart{age: 3}"
+    required-progress: 10 
     points: 10 
     item: 
       material: nether_wart:0
@@ -73,5 +74,6 @@ In this example, we're harvesting 10 of fully grown nether warts. Since it's max
         - '&#x26;7Mine &#x26;e10 Nether Warts'
         - ''
         - '&#x26;7Progress &#x26;e%total_progress%&#x26;7/&#x26;e%required_progress%'
-</code></pre>
+```
+
 

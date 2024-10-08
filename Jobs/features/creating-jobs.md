@@ -15,7 +15,7 @@ Jobs can be manually created and customized by editing YAML configuration files 
 
 ## Special Cases Progress
 
-You can specify different cases progress, e.g. with kill-mob action, to assign different progress points: [https://wiki.advancedplugins.net/actions/special-progress-custom-types-progress](https://wiki.advancedplugins.net/actions/special-progress-custom-types-progress)
+You can specify different cases progress, e.g. with kill-mob action, to assign different progress points: [https://battlepass.advancedplugins.net/quests/special-progress](https://battlepass.advancedplugins.net/quests/special-progress)
 
 ## Job Permissions
 

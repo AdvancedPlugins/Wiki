@@ -8,21 +8,21 @@ Learn how to create multiple step quests!
     steps:
       1:
         type: block-break
-        variable: coal_ore:0
+        variable: coal_ore
         required-progress: 10
         points: 0
         info:
           - "&7Mine &e10 coal ores"
       2:
         type: block-break
-        variable: iron_ore:0
+        variable: iron_ore
         required-progress: 10
         points: 5
         info:
           - "&7Mine &e10 iron ores"
       3:
         type: block-break
-        variable: diamond_ore:0
+        variable: diamond_ore
         required-progress: 10
         points: 25
         info:
@@ -47,13 +47,13 @@ After completing all 3 steps, the quest will complete.
 
 ### How to create a quest with multiple steps
 
-As in the example, create a section `steps` and add quest parameters to each step section as desired. Available parameters: type, variable, required-progress, points, whitelisted-worlds, blacklisted-worlds, whitelisted-regions, blacklisted-regions, complete-commands, info, exclusive, anti-abuse, special-progress.
+As in the example, create a section `steps` and add quest parameters to each step section as desired.
 
 ### Info parameter
 
 Each step can contain a list of information which you can use inside the quest icon (`%info%`).
 
-### New placeholders in icon
+### Icon placeholders related to steps system
 
 * `%step%` - current step
 * `%steps%` - number of steps
@@ -73,17 +73,17 @@ yamlCopy10: # Multiple step quest
     steps:
       1:
         type: block-break
-        variable: coal_ore:0
+        variable: coal_ore
         info:
           - "&7Mine &e10 coal ores"
       2:
         type: block-break
-        variable: iron_ore:0
+        variable: iron_ore
         info:
           - "&7Mine &e10 iron ores"
       3:
         type: block-break
-        variable: diamond_ore:0
+        variable: diamond_ore
         info:
           - "&7Mine &e10 diamond ores"
 ```

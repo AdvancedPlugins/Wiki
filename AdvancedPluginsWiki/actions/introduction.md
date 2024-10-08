@@ -4,6 +4,6 @@ Actions power some of our plugins. Like Abilities system, actions are based on t
 
 ## Used for our plugins, such as:
 
-### BattlePass: [https://advancedplugins.net/item/BattlePass.11](https://advancedplugins.net/item/BattlePass.11)
+#### BattlePass: [https://advancedplugins.net/item/BattlePass.11](https://advancedplugins.net/item/BattlePass.11)
 
-### AdvancedJobs: [https://advancedplugins.net/item/AdvancedJobs.187/](https://advancedplugins.net/item/AdvancedJobs.187/)
+#### AdvancedJobs: [https://advancedplugins.net/item/AdvancedJobs.187/](https://advancedplugins.net/item/AdvancedJobs.187/)

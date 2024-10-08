@@ -45,4 +45,3 @@
 * [Actions](actions/actions.md)
 * [PlaceholderAPI Actions](actions/placeholderapi-actions.md)
 * [Setting up and using Variables](actions/setting-up-and-using-variables.md)
-* [Special Progress (custom types progress)](actions/special-progress-custom-types-progress.md)

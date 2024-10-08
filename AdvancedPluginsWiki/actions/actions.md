@@ -53,9 +53,9 @@ layout:
 * [**smelt** ](actions.md#smelt)- Smelt an item in a furnace
 * [**tame** ](actions.md#tame)- Tame a pet (Ocelot/Wolf)
 * [**honey-extract**](actions.md#honey-extract) - Extract honey
-* [**honey-comb-extract**](actions.md#undefined) - Extract honey comb with shears
-* **breed** - Breed an entity
-* **brew** - Brew a potion
+* [**honey-comb-extract**](actions.md#honey-comb-extract) - Extract honey comb with shears
+* [**breed**](actions.md#breed) - Breed an entity
+* [**brew**](actions.md#brew) - Brew a potion
 
 ## External Action Type (100+)
 
@@ -231,11 +231,16 @@ layout:
 
 **Variable**: bucket's material (e.g. lava bucket)
 
-**`brew`**
+#### `brew`
 
 **Triggered**: when potion is brewed
 
-**Variable**: potion effect type
+**Variables:**
+
+* `root`: [Potion Type](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html)
+* `isExtended`: `true` if potion has extended time (on versions <1.20.2)
+* `isUpgraded` : `true` if potion is upgraded (on versions <1.20.2)
+* `item`: brewed potion
 
 #### `chat`
 
@@ -302,7 +307,7 @@ layout:
 * `level`: The level of the enchantment
 * `cost`: The level cost of enchanting
 
-`breed`
+#### `breed`
 
 **Triggered**: When player breeds a mob
 
@@ -311,7 +316,7 @@ Variables:
 * root: EntityType
 * name: Entity's custom name
 
-`harvest-crops`
+#### `harvest-crops`
 
 **Triggered**: When player harvests crops
 
@@ -381,7 +386,13 @@ Variables:
 **Triggered:** When a player moves a block sneaking.\
 &#x20;**Extra Info:** Progression is measured in blocks snuck.\
 \
-&#x20;**Variable:** none.
+&#x20;**Variables:**
+
+* `isSwimming` - `true` / `false`
+* `isGliding` - `true` / `false`
+* `isFlying` - `true` / `false`
+* `isSneaking` - `true` / `false`
+* `isSprinting` - `true` / `false`
 
 #### `sprint`
 
