@@ -4,13 +4,16 @@
 * [Purchase BattlePass](https://advancedplugins.net/item/BattlePass.11?ref=wiki)
 * [➡️ Immersive BattlePass UI \[NEW\]](immersive-ui.md)
 
-## Features
+## Quests
 
-* [Quests](https://wiki.advancedplugins.net/actions/actions)
-* [PlaceholderAPI Endless Quests](https://wiki.advancedplugins.net/actions/placeholderapi-actions)
+* [Creating Quests](quests/creating-quest.md)
+* [Quest Types](https://wiki.advancedplugins.net/actions/actions)
 * [Setting up and using Variables](https://wiki.advancedplugins.net/actions/setting-up-and-using-variables)
-* [Multi-Step quests](features/multi-step-quests.md)
-* [Special Cases Progress](https://wiki.advancedplugins.net/actions/special-progress-custom-types-progress)
+* [PlaceholderAPI Endless Quests](https://wiki.advancedplugins.net/actions/placeholderapi-actions)
+* [Multi-Step quests](quests/multi-step-quests.md)
+* [Special Cases Progress](quests/special-progress.md)
+
+## Features
 * [Boosters](features/boosters.md)
 * [Menu Actions](features/actions.md)
 
@@ -38,10 +41,6 @@
 * [Using with Citizens NPCs](useful/using-with-citizens-npcs.md)
 * [Quest Specific Regions](useful/quest-specific-regions.md)
 * [FAQ](useful/faq.md)
-
-***
-
-* [Big AdvancedActions Update](big-advancedactions-update.md)
 
 ## TUTORIALS
 
