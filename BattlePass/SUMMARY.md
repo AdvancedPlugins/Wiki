@@ -19,7 +19,7 @@
 * [Commands](general/commands.md)
 * [Permissions](general/permissions.md)
 * [PlaceholderAPI Placeholders](general/placeholderapi-placeholders.md)
-* [Custom Heads In Menus](general/custom-heads-in-menus.md)
+* [Custom Items/Heads In Menus and Rewards](general/custom-item-types.md)
 
 ## Developer API
 
