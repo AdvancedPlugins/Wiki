@@ -69,6 +69,7 @@ actionRegistry.hook("pluginname", BlockBreakQuest::new);
 * `root(ItemStack root)` - Set root to itemstack
 * `root(Entity root)` - Set root to entity
 * `root(Material root)` - Set root to material
+* `root(Predicate<Object> root)` - Manually create root checking method which takes String, ItemStack, Entity or Material as parameter and returns true if root is correct or false.
 
 ---
 
@@ -77,6 +78,7 @@ actionRegistry.hook("pluginname", BlockBreakQuest::new);
 * `subRoot(String key, ItemStack value)` - Add subroot with itemstack
 * `subRoot(String key, Block value)` - Add subroot with block
 * `subRoot(String key, Entity value)` - Add subroot with entity
+* `subRoot(String key, Predicate<Object> value)` - Manually create subroot checking method which takes String, ItemStack, Entity or Material as parameter and returns true if root is correct or false.
 * `subRoot(ItemStack itemStack)` - Add `item` subroot with itemstack
 
 ---
