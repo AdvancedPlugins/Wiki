@@ -2,6 +2,10 @@
 
 There are two types of reward formats you can use, one is command format or item format. You may use any plugin's command's in them as long as you use the "%player%" placeholder.
 
+**List of mathematical functions which can be used inside variables -> [check](https://ezylang.github.io/EvalEx/references/functions.html)**
+
+---
+
 **COMMAND FORMAT BREAKDOWN**
 
 Before we start you need to understand what you are editing and what each line of the format means and what it does. Below is a explanation next to each section of the format.
