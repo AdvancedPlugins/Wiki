@@ -4,9 +4,7 @@ description: Follow a step by step tutorial to create a reward by yourself.
 
 # Setting Up Rewards
 
-There are two types of reward formats you can use, one is command format or item format. You may use any plugin's command's in them as long as you use the "%player%" placeholder.
-
-
+There are three types of reward formats you can use: command format, money format or item format. You may use any plugin's command's in them as long as you use the "%player%" placeholder.
 
 **COMMAND FORMAT BREAKDOWN**
 
@@ -15,6 +13,7 @@ Before we start you need to understand what you are editing and what each line o
 ```yaml
 '1': #(The reward id used to link it to a tier) (DONT USE THE SAME NUMBER TWICE)
   type: command #(Reward type)
+  name: "Announces you achievement" #(Name for booster message)
   lore-addon: #(Reward description)
     - '&6 - Announces you achievement.' #(Reward description)
   commands: #(Item or Command being excuted when reward is claimed)
@@ -28,6 +27,7 @@ Here is a example using a ExcellentCrates command to give a key to the player.
 ```yaml
 '1':
   type: command # You can still use commands to give items :)
+  name: "1 Common Key" 
   lore-addon:
     - '&6 - &e1 Common Key'
   commands:
@@ -43,6 +43,7 @@ Before we start you need to understand what you are editing and what each line o
 ```yaml
 '1': #(The reward id used to link it to a tier) (DONT USE THE SAME NUMBER TWICE)
   type: item #(Reward type)
+  name: "Something cool" #(Name for booster message)
   lore-addon: #(Reward description)
     - '&7 - &eWOAH! Something cool' #(Reward description)
   items: #(List of items it will give the player)
@@ -60,6 +61,10 @@ Before we start you need to understand what you are editing and what each line o
         - '&7An &bawesome &7lore, for an &eawesome &7coal block' #(Description)
 ```
 
+{% hint style="info" %}
+In `item` rewards you can also use exact copy of item. [Read more](../general/custom-item-types.md)
+{% endhint %}
+
 **ITEM FORMAT:**
 
 Here is a example of giving a diamond sword with a custom name and lore to the player.
@@ -67,6 +72,7 @@ Here is a example of giving a diamond sword with a custom name and lore to the p
 ```yaml
 '1':
   type: item
+  name: "Something cool"
   lore-addon:
     - '&7 - &eWOAH! Something cool'
   items:
@@ -77,3 +83,55 @@ Here is a example of giving a diamond sword with a custom name and lore to the p
       lore:
         - '&7Used to slay foes!' 
 ```
+
+**MONEY FORMAT BREAKDOWN**
+
+{% hint style="warning" %}
+Money rewards require Vault and economy plugin which is compatible with Vault
+{% endhint %}
+
+Before we start you need to understand what you are editing and what each line of the format means and what it does. Below is a explanation next to each section of the format.
+
+```yaml
+'1': #(The reward id used to link it to a tier) (DONT USE THE SAME NUMBER TWICE)
+  type: money #(Reward type)
+  name: "$100" #(Name for booster message)
+  lore-addon: #(Reward description)
+    - '&6 - $100' #(Reward description)
+  value: 100 #(Money given to player)
+```
+
+**MONEY FORMAT:**
+
+Here is a example where player get $250
+
+```yaml
+'1':
+  type: command # You can still use commands to give items :)
+  name: "$250"
+  lore-addon:
+    - '&6 - $250'
+  value: 250
+```
+
+## Reward variables (+ boosters support)
+
+Sometimes, you want to create one reward for multiple tiers. Let's say that you want to create reward which gives money to player (`money` type). This reward should be increased by $100 on every tier, so on 5th tier player get $500, on 8th $800 etc. You can create that using variables.
+
+```yaml
+'1': # The unique id of the reward
+  type: money 
+  name: "$%value%"
+  variables: # List of variables
+    value: "(100 * %tier%) * (1 + (%booster% / 100))" # %value% reward
+  lore-addon:
+    - '&7 - &eMoney ($%value%)'
+  value: '%value%' # Given money - %value% variable
+```
+
+In this case player gets `(100 * %tier%) * (1 + (%booster% / 100))` money.
+
+- `(100 * %tier%)` - $100 multiplied by tier
+- `* (1 + (%booster% / 100))` - [Reward boosters](../features/boosters.md) support
+
+Ofc, you can create multiple variables with custom names in the same reward
