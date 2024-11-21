@@ -12,6 +12,7 @@
 * [PlaceholderAPI Endless Quests](https://wiki.advancedplugins.net/actions/placeholderapi-actions)
 * [Multi-Step quests](quests/multi-step-quests.md)
 * [Special Cases Progress](quests/special-progress.md)
+* [Daily Quests Difficulty](quests/daily-quests-difficulty.md)
 
 ## Features
 * [Boosters](features/boosters.md)
