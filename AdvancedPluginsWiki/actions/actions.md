@@ -419,8 +419,12 @@ Variables:
 
 **Triggered:** When a player kills a mob.\
 \
-&#x20;**Variable:** The type of mob.
+&#x20;**Variables:**
 
+root: The type of mob.
+
+* `spawn-reason` - [entity spawn reason](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html)
+* `custom-name` - Custom name of entity
 #### `kill-player`
 
 **Triggered:** When a player kills another player.\
@@ -1039,4 +1043,3 @@ root: team name&#x20;
 **Triggered:** When a player opens a shopkeeper.\
 \
 &#x20;**Variable:** The UUID of the shopkeeper.
-
