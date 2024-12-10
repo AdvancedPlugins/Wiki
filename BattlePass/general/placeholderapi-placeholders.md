@@ -8,6 +8,14 @@ Gives the amount of points a player currently has.
 
 Gives the formatted amount of points a player currently has.
 
+## `%battlepass_balance%` or `%battlepass_currency%`
+
+Gives the formatted amount of currency a player currently has.
+
+## `%battlepass_balance_base%` or `%battlepass_currency_base%`
+
+Gives the amount of currency a player currently has.
+
 ## `%battlepass_tier%`
 
 Gives the current tier of the player.

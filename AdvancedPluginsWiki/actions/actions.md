@@ -64,6 +64,7 @@ layout:
 * **McMMO** (New)
   * [**mcmmo\_gain\_exp**](actions.md#mcmmo-mcmmo\_gain\_exp) - Gain experience in skill
   * [**mcmmo\_level\_up\_skill**](actions.md#mcmmo-mcmmo\_level\_up\_skill) - Level up an mcmmo skill
+  * [**mcmmo\_level\_total\_skill**](actions.md#mcmmo-mcmmo\_level\_total\_skill) - Level up an mcmmo skill (returns total level of skill)
 * **MBedWars**
   * [**mbedwars\_break\_bed**](actions.md#mbedwars\_break\_bed) - When bed is broken
   * [**mbedwars\_kill**](actions.md#mbedwars\_kill) - When kill is achieved
@@ -177,6 +178,9 @@ layout:
   * [**shopguiplus\_sell**](actions.md#shopguiplus-shopguiplus\_sell) - When you sell an item to the shop. The progress will be the amount sold.
   * [**shopguiplus\_sell\_singular**](actions.md#shopguiplus-shopguiplus\_sell\_singular) - When you sell an item to the shop. The progress will always be 1 per transaction.
   * [**shopguiplus\_profit**](actions.md#shopguiplus-shopguiplus\_profit) - When you sell an item to the shop. The progress will be however much the player gained.
+* **EconomyShopGUI**
+  * [**economyshopgui\_buy**](actions.md#economyshopgui\_buy) - When you purhcase an item from shop
+  * [**economyshopgui\_sell**](actions.md#economyshopgui\_sell) - When you sell an item in shop
 * **Shopkeepers**
   * [**shopkeepers\_trade**](actions.md#shopkeepers-shopkeepers\_trade) - Trade an item with a shopkeeper.
   * [**shopkeepers\_open**](actions.md#shopkeepers-shopkeepers\_open) - Open a shopkeeper's GUI.
@@ -212,6 +216,10 @@ layout:
   * [**uskyblock\_island\_chat**](broken-reference) - Talking in the island chat.
 * **Votifier**
   * [**votifier\_vote**](broken-reference) - Just... vote lol
+* **RivalHarvesterHoes**
+  * [**rivalharvesterhoes\_harvest**](actions.md#rivalharvesterhoes---rivalharvesterhoes_harvest) - When a player breaks crops using hoe from this plugin
+* **AdvancedMobs**
+  * [**advancedmobs\_kill\_mob**](actions.md#advancedmobs---advancedmobs_kill-mob) - When a player kills a mob from this plugin
 
 #### `block-break`
 
@@ -508,6 +516,12 @@ root: The type of mob.
 #### McMMO - `mcmmo_level_up_skill`
 
 **Triggered**: When player levels up a skill
+
+**Variable**: Skill name.
+
+#### McMMO - `mcmmo_level_total_skill`
+
+**Triggered**: When player levels up a skill (returns total level of skill)
 
 **Variable**: Skill name.
 
@@ -1032,6 +1046,18 @@ root: team name&#x20;
 * `shop`: The ID of the shop the item was purchased from (e.g foodstuffs)&#x20;
 * `item-id`: The ID of the item in the shop (e.g 2, 6, or 8)
 
+#### EconomyShopGUI - `economyshopgui_buy`
+
+**Triggered:** When a player purchases an item from the shop.
+\
+&#x20;**Variable:** The item that was purchased
+
+#### EconomyShopGUI - `economyshopgui_sell`
+
+**Triggered:** When a player sells an item in the shop.
+\
+&#x20;**Variable:** The item that was sold
+
 #### Shopkeepers - `shopkeepers_trade`
 
 **Triggered:** When a player trades with a shopkeeper.\
@@ -1043,3 +1069,19 @@ root: team name&#x20;
 **Triggered:** When a player opens a shopkeeper.\
 \
 &#x20;**Variable:** The UUID of the shopkeeper.
+
+### RivalHarvesterHoes - `rivalharvesterhoes_harvest`
+
+**Triggered:** When a player breaks crops using hoe from this plugin
+
+&#x20;**Variables:**
+
+root: crop block
+
+* `item` - Hoe item
+
+#### AdvancedMobs - `advancedmobs_kill-mob`
+
+**Triggered:** When a player kills mob from this plugin
+
+&#x20;**Variable:** The mob type
