@@ -563,13 +563,21 @@ root: team name&#x20;
 
 **Triggered:** When a player makes a purchase from a chest shop.\
 \
-&#x20;**Variable:** The owner of the chest shop's name.
+&#x20;**Variables:**
+
+- `root`: The owner of the chest shop's name.
+- `item`: Bought item
+
 
 #### ChestShop - `chestshop_sell`
 
 **Triggered:** When a player sells something from their chest shop.\
 \
-&#x20;**Variable:** The name of the client.
+&#x20;**Variables:**
+
+- `root`: The owner of the client
+- `item`: Sold item
+
 
 #### ChestShop - `chestshop_spend`
 
@@ -1040,3 +1048,8 @@ root: team name&#x20;
 \
 &#x20;**Variable:** The UUID of the shopkeeper.
 
+#### SuperiorSkyBlock2 - `superiorskyblock2_upgrade`
+
+**Triggered:** Purchasing an island upgrade.
+\
+&#x20;**Variable:** The name of an upgrade (`plugins\SuperiorSkyblock2\modules\upgrades`)
