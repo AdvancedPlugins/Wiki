@@ -1083,7 +1083,7 @@ root: team name&#x20;
 **Triggered:** Purchasing an island upgrade.
 \
 &#x20;**Variable:** The name of an upgrade (`plugins\SuperiorSkyblock2\modules\upgrades`)
-=======
+
 ### RivalHarvesterHoes - `rivalharvesterhoes_harvest`
 
 **Triggered:** When a player breaks crops using hoe from this plugin
