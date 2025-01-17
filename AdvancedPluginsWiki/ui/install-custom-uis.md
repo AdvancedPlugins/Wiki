@@ -10,7 +10,7 @@ description: >-
 
 ## Available UIs
 
-
+Currently, 4 UI packs are available for our plugins:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Immersive BattlePass UI</strong></td><td>Immersive new drag &#x26; drop UI graphics solution for BattlePass plugin</td><td><a href="../.gitbook/assets/gui-expanded (1).gif">gui-expanded (1).gif</a></td><td><a href="https://advancedplugins.net/item/110">https://advancedplugins.net/item/110</a></td></tr><tr><td><strong>AdvancedEnchantments UI</strong></td><td>Amaze and surprise your server players with new immersive experience</td><td><a href="../.gitbook/assets/gui-expanded (2).gif">gui-expanded (2).gif</a></td><td><a href="https://advancedplugins.net/item/AdvancedEnchantments-UI.123">https://advancedplugins.net/item/AdvancedEnchantments-UI.123</a></td></tr><tr><td><strong>AdvancedPets UI</strong></td><td>Complete the full unique experience of custom pets with this immersive UI upgrade</td><td><a href="../.gitbook/assets/gui-expanded.gif">gui-expanded.gif</a></td><td><a href="https://advancedplugins.net/item/AdvancedPets-UI.137">https://advancedplugins.net/item/AdvancedPets-UI.137</a></td></tr><tr><td><strong>AdvancedJobs UI</strong></td><td>Improve your players' experience with the new ultimate AdvancedJobs UI</td><td><a href="../.gitbook/assets/ezgif-4-bdf180f0aa.gif">ezgif-4-bdf180f0aa.gif</a></td><td><a href="https://advancedplugins.net/item/AdvancedJobs-UI.189">https://advancedplugins.net/item/AdvancedJobs-UI.189</a></td></tr></tbody></table>
 
