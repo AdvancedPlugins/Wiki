@@ -6,7 +6,7 @@ description: >-
 
 # Install Custom UIs
 
-<mark style="color:yellow;">You must have</mark> [<mark style="color:yellow;">**ItemsAdder**</mark>](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/) <mark style="color:yellow;">**or**</mark> [<mark style="color:yellow;">**Oraxen**</mark> ](https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-21-4.72448/)<mark style="color:yellow;">installed before proceeding with these steps.</mark>
+<mark style="color:yellow;">You must have</mark> [<mark style="color:yellow;">**ItemsAdder**</mark>](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/) <mark style="color:yellow;">**or**</mark> [<mark style="color:yellow;">**Oraxen**</mark> ](https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-21-4.72448/)<mark style="color:yellow;">installed and working properly before proceeding with these steps.</mark>
 
 ## Available UIs
 
