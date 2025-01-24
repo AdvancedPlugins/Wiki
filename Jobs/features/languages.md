@@ -1,6 +1,7 @@
 All translations are available in `.yml` format and can be directly used in the plugin's `lang` folder.
 
 ### Available Languages
+- English (en.yml)
 - German (de.yml)
 - Spanish (es.yml)
 - French (fr.yml)
