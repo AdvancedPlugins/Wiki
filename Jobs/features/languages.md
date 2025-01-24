@@ -8,7 +8,7 @@ All translations are available in `.yml` format and can be directly used in the 
 - Danish (da.yml)
 - Dutch (nl.yml)
 - Korean (ko.yml)
-- Simplified Chinese (zh_CN.yml)
+- Simplified Chinese (zh-cn.yml)
 
 ### How to Use
 Go into your config.yml file. Change this to your desired language code:
