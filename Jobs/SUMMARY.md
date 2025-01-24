@@ -6,6 +6,7 @@
 ## 📖 Features
 
 * [🎓 Creating Jobs](features/creating-jobs.md)
+* [Languages](features/languages.md)
 * [👷‍♂️ Default Jobs](features/default-jobs.md)
 * [Job Join and Leave Conditions](features/job-join-and-leave-conditions.md)
 * [PlaceholderAPI Endless Jobs](features/placeholderapi-endless-jobs.md)
