@@ -13,6 +13,7 @@
 * [Multi-Step quests](quests/multi-step-quests.md)
 * [Special Cases Progress](quests/special-progress.md)
 * [Daily Quests Difficulty](quests/daily-quests-difficulty.md)
+* [Events](quests/events.md)
 
 ## Features
 * [Boosters](features/boosters.md)
