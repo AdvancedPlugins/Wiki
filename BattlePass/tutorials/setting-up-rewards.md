@@ -34,9 +34,7 @@ Here is a example using a ExcellentCrates command to give a key to the player.
     - 'crate key give %player% Common 1'
 ```
 
-
-
-**ITEM  FORMAT BREAKDOWN**
+**ITEM FORMAT BREAKDOWN**
 
 Before we start you need to understand what you are editing and what each line of the format means and what it does. Below is a explanation next to each section of the format.
 
@@ -131,7 +129,29 @@ Sometimes, you want to create one reward for multiple tiers. Let's say that you 
 
 In this case player gets `(100 * %tier%) * (1 + (%booster% / 100))` money.
 
-- `(100 * %tier%)` - $100 multiplied by tier
-- `* (1 + (%booster% / 100))` - [Reward boosters](../features/boosters.md) support
+* `(100 * %tier%)` - $100 multiplied by tier
+* `* (1 + (%booster% / 100))` - [Reward boosters](../features/boosters.md) support
 
 Ofc, you can create multiple variables with custom names in the same reward
+
+#### ADDING ENCHANTMENTS
+
+Make sure to use lowercase for enchantment IDs. You can also add enchantments from AdvancedEnchantments.
+
+```
+'1':
+  type: item
+  name: "Jben's Sword"
+  lore-addon:
+    - '&7 - &eForged in the Abyss, the Shadowrend Blade is a weapon of immense power.
+  items:
+    '1':
+      material: netherite_sword:0
+      amount: 1
+      name: '&4Shadowrend Blade'
+      lore:
+        - '&7Forged in the Abyss'
+      enchants:
+        - 'unbreaking:1'
+        - 'strike:1'
+```
