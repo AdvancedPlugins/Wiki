@@ -138,7 +138,7 @@ Ofc, you can create multiple variables with custom names in the same reward
 
 Make sure to use lowercase for enchantment IDs. You can also add enchantments from AdvancedEnchantments.
 
-```
+```yaml
 '1':
   type: item
   name: "Jben's Sword"
