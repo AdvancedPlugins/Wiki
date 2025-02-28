@@ -12,6 +12,7 @@ category:
     time: "22:00"
   name: "Easter Quests" # Name
   required-permission: "" # Required permission
+  required-completed: [] # Required completed categories i.e. ["week-1, event-xyz"] requires to complete 1st week & XYZ event before accessing this event
   show-without-permission: true # Show event even if player doesn't have required permission
   see-quests-when-not-active: true # Allow players to see event quests when event isn't active
   item: # Event display icon
