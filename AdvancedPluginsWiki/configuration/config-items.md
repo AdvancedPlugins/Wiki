@@ -10,7 +10,7 @@ All AdvancedPlugins use similar item configuration format. You can follow this g
 
 ### **type**
 
-item's material&#x20;
+item's material
 
 ### **id**
 
@@ -20,58 +20,58 @@ item's durability
 
 item's amount
 
-### **name**&#x20;
+### **name**
 
 item's custom name
 
 ### **lore**
 
-&#x20;item's custom lore
+item's custom lore
 
-### **item-flags**&#x20;
+### **item-flags**
 
 list of item flags applied to items
 
-### **custom-model-data**&#x20;
+### **custom-model-data**
 
-&#x20;item's custom model data for custom textures
+item's custom model data for custom textures
 
-### **armor-trim**&#x20;
+### **armor-trim**
 
 set item's trim material and pattern (new in Minecraft 1.20)
 
 * format: `'MATERIAL;PATTERN'`, e.g. `QUARTZ;COAST`
 * Trim material: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimMaterial.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimMaterial.html)
 * Trim pattern: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimPattern.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimPattern.html)
-* **force-glow**&#x20;
+* **force-glow**
 
 set whether item should glow or not
 
-### **enchantments**&#x20;
+### **enchantments**
 
 list of enchantments applied to item
 
 ### **custom-enchantments**
 
-&#x20;list of custom enchantments \*_present in AdvancedEnchantments only_
+list of custom enchantments \*_present in AdvancedEnchantments only_
 
-### **rgb-color**&#x20;
+### **rgb-color**
 
 item's color (applyable for colored leather armor)
 
 ### **nbt**
 
-&#x20;set item's custom nbt (json format)&#x20;
+set item's custom nbt (json format)
 
 ### **owner**
 
 skull's owner. It can be player username or base64
 
-### **unbreakable**&#x20;
+### **unbreakable**
 
 set item unbreakable (boolean - true/false)
 
-### **itemsadder**&#x20;
+### **itemsadder**
 
 use custom item from ItemsAdder plugin (item's name)
 
@@ -99,3 +99,5 @@ item:
   unbreakable: true
   itemsadder: 'lava_pickaxe'
 ```
+
+<figure><img src="../.gitbook/assets/image.gif" alt=""><figcaption><p><a href="https://mintservers.com/?utm_source=gitbook_wiki&#x26;utm_medium=banner&#x26;utm_content=gitbook"><strong>Sponsored by MintServers. AdvancedPlugins.net integration &#x26; auto updates. Unlimited RAM plan for only $9.99!</strong></a></p></figcaption></figure>

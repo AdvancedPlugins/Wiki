@@ -4,7 +4,7 @@ description: New effects system that brings all our plugins into one.
 
 # Introduction
 
-We have launched a new effects system to unify all of our plugins which use effects (Enchantments, Pets and Mobs) into one system working together.&#x20;
+We have launched a new effects system to unify all of our plugins which use effects (Enchantments, Pets and Mobs) into one system working together.
 
 ## Explanation
 
@@ -30,3 +30,5 @@ Abilities are a unique implementation of completely customizable abilities. Abil
       - 'MESSAGE:You have been &bfrozen! @NearestPlayer{r=3}'
       - 'FREEZE:10 @NearestPlayer{r=3}'
 ```
+
+<figure><img src="../.gitbook/assets/image.gif" alt=""><figcaption><p><a href="https://mintservers.com/?utm_source=gitbook_wiki&#x26;utm_medium=banner&#x26;utm_content=gitbook"><strong>Sponsored by MintServers. AdvancedPlugins.net integration &#x26; auto updates. Unlimited RAM plan for only $9.99!</strong></a></p></figcaption></figure>

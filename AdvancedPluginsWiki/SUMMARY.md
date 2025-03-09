@@ -11,7 +11,9 @@
 * [AdvancedMobs](https://advancedplugins.net/item/47)
 * [AdvancedSeasons](https://advancedplugins.net/item/185)
 * [AdvancedJobs](https://advancedplugins.net/item/187)
-* [AdvancedChats ](https://advancedplugins.net/item/AdvancedChat.188)
+* [AdvancedModels](https://advancedplugins.net/item/AdvancedModels.194)
+* [AdvancedCosmetics](https://advancedplugins.net/item/AdvancedCosmetics.207)
+* [AdvancedChat](https://advancedplugins.net/item/AdvancedChat.188)
 
 ## Configuration
 

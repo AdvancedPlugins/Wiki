@@ -12,6 +12,8 @@ effects:
 
 In this example, when the trigger occurs, the victim will be set on fire for 2 seconds, a random greeting will be sent to the victim with their name.
 
+<figure><img src="../.gitbook/assets/image.gif" alt=""><figcaption><p><a href="https://mintservers.com/?utm_source=gitbook_wiki&#x26;utm_medium=banner&#x26;utm_content=gitbook"><strong>Sponsored by MintServers. AdvancedPlugins.net integration &#x26; auto updates. Unlimited RAM plan for only $9.99!</strong></a></p></figcaption></figure>
+
 ## Effect List
 
 There are many different types of effects that can be used in our ability system. Some of the effects available are:
