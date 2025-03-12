@@ -18,6 +18,7 @@
 ## Configuration
 
 * [🔧 Config Items](configuration/config-items.md)
+* [🎨 Colors](configuration/colors.md)
 
 ## 🪄 Abilities System (V2) <a href="#abilities" id="abilities"></a>
 
