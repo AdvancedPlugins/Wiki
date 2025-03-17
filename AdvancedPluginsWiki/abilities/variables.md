@@ -28,6 +28,8 @@ effects:
 | `%is removed%`                                | Whether the effect is being removed. Is used mostly on triggers like EFFECT\_STATIC, HELD etc.                                                                                                                                       |
 | `%client version%`                            | Returns client's protocol version. Find all versions here: [https://wiki.vg/Protocol\_version\_numbers](https://wiki.vg/Protocol\_version\_numbers)                                                                                  |
 | `%potion type%, %is extended%, %is upgraded%` | From BREW\_POTION trigger, passes data on potion. Potion types: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
+| `%block is interactable%`                                    | Whether the block is interactable or not from [bukkit api](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/BlockType.html#isInteractable())                                                                                                                                                                                                                |
+
 
 ## Plugin-specific variables:
 
