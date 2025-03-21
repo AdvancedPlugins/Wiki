@@ -42,7 +42,6 @@
 * [Premade Configurations](useful/premade-configurations.md)
 * [Using with Citizens NPCs](useful/using-with-citizens-npcs.md)
 * [Quest Specific Regions](useful/quest-specific-regions.md)
-* [FAQ](useful/faq.md)
 
 ## TUTORIALS
 
