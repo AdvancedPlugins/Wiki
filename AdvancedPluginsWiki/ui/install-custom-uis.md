@@ -18,7 +18,9 @@ Currently, 4 UI packs are available for our plugins:
 
 We now have a YouTube video guide available on installing our UIs using ItemsAdder and Oraxen:
 
-{% embed url="https://www.youtube.com/watch?t=1s&v=XzBQlmCsXZw" %}
+
+
+{% embed url="https://youtu.be/bCKd6C4aR9E" %}
 
 Using timestamps navigate between ItemsAdder (starts 0:27s) and Oraxen installations (Oraxen starts 2:25s).
 
