@@ -72,6 +72,10 @@ Gives the amount of points the user currently have for the next tier. (premium p
 
 Gives the amount of points the user needs in order to tier up. (premium pass)
 
+## `%battlepass_has_unclaimed_rewards% `
+
+Checks if player has any unclaimed rewards. Returns `yes` or `no`
+
 ## %battlepass\_has\_booster\_\<SERVER/PLAYER/ANY>_\<PROGRESS/POINTS/REWARDS/ANY>_\<PERCENT\*/ANY>\_\<AFFECTS\*/ANY>%
 
 Check whether a booster is active
