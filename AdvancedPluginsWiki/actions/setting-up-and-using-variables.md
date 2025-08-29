@@ -104,7 +104,7 @@ variable: "!stone OR dirt"
 `block-place`
 
 ```yml
-variable: 
+variable:
   - "!stone"
   - "dirt"
 # This will progress the quest if player placed any block except stone and dirt
@@ -137,11 +137,20 @@ In this case, root will accept every item which contains ORE in name (it also ap
 
 ### ItemsAdder (experimental)
 
-Just add `itemsadder:` before element name to use itemsadder items, block or entities 
+Just add `itemsadder:` before element name to use itemsadder items, block or entities
 
 **Example:**
 ```yml
 variable: itemsadder:ITEM_NAME
+```
+
+### MMOItems (experimental)
+
+Just add `mmoitems:` before element name to use items from this plugin
+
+**Example:**
+```yml
+variable: mmoitems:ITEM_NAME
 ```
 
 ### Properties
