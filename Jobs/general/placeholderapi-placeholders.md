@@ -52,6 +52,10 @@ AdvancedJobs integrates seamlessly with PlaceholderAPI, offering a wide array of
             <td><code>%advancedjobs_&#x3C;job>_required_points_left%</code></td>
             <td>The points a player needs to accumulate to reach the next level in the specified job.</td>
         </tr>
+        <tr>
+            <td><code>%advancedjobs_daily_refresh_time%</code></td>
+            <td>Shows time left to daily refresh</td>
+        </tr>
     </tbody>
 </table>
 
