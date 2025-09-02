@@ -1,5 +1,5 @@
 ---
-description: Let players pick their chat color!
+description: Let players pick their name color!
 ---
 
 # 🎨 Name Color GUI
@@ -117,19 +117,19 @@ settings:
       name: "&lBold"
       material: IRON_BLOCK
       lore:
-        - '&f&lBold effect will be applied to your chat text.'
+        - '&f&lBold effect will be applied to your name.'
     italic:
       format: "<italic>%name%</italic>"
       name: "&f&oItalic&r"
       material: GOLD_BLOCK
       lore:
-        - '&f&oItalic effect will be applied to your chat text.'
+        - '&f&oItalic effect will be applied to your name.'
     underline:
       format: "<underlined>%name%</underlined>"
       name: "&nUnderline&r"
       material: DIAMOND_BLOCK
       lore:
-        - '&f&nUnderline effect will be applied to your chat text.'
+        - '&f&nUnderline effect will be applied to your name.'
 ```
 {% endcode %}
 
