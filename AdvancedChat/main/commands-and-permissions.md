@@ -22,7 +22,7 @@ Opens the Chat Color GUI
 
 <table data-full-width="true"><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td>advancedchat.command.chatcolor</td><td>Use the /chatcolor command.</td></tr><tr><td>advancedchat.chatcolor.&#x3C;name></td><td>Access to the specified chat color.</td></tr></tbody></table>
 
-## /chatcolor
+## /namecolor
 
 Opens the Name Color GUI
 
