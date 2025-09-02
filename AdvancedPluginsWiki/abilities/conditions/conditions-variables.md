@@ -65,6 +65,9 @@ Example: "%victim checkitem\_getinfo:39\_mat:%"
 | %block tags%                                           | Array of tags a target block has                                                                                                                                   |
 | %is riding%                                            | Whether player/mob is riding player/mob (or is a passenger)                                                                                                        |
 | %passengers%                                           | Passengers of the player/mob                                                                                                                                       |
+| %yaw%                                           | Yaw of the player/mob                                                                                                                                       |
+| %pitch%                                           | Pitch of the player/mob                                                                                                                                       |
+
 
 #### Type-specific variables (global)
 
