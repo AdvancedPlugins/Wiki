@@ -5,7 +5,7 @@
 | Placeholder             | Output                                                                             |
 | ----------------------- | ---------------------------------------------------------------------------------- |
 | `%player_name%`         | Represents the username of the player.                                             |
-| `%player_name_colored%`         | Represents the username of the player with the currently applied name color.                                             |
+| `%advancedchat_player_name_colored%`         | Represents the username of the player with the currently applied name color.                                             |
 | `%player_head_N_I%`     | Print player head. N being the amount of blocks to make the head out of, I being the index/line number |
 | `%player_displayname%`  | Represents the nickname of the player.                                             |
 | `%sender_server%`       | Placeholder for the server name, with a fallback to "none" if server name is null. |
