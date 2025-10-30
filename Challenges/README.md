@@ -7,4 +7,3 @@ You can get [AdvancedChallenges here​](https://advancedplugins.net/item/Advanc
 ### Summary <a href="#summary" id="summary"></a>
 
 AdvancedChallenges is a plugin where you can create your own server-wide challenges, compete and sync challenges between networks
-
