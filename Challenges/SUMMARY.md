@@ -17,6 +17,7 @@
 -   [Challenge Types](https://wiki.advancedplugins.net/actions/actions)
 -   [Challenge Variables](https://wiki.advancedplugins.net/actions/setting-up-and-using-variables)
 -   [PlaceholderAPI Endless Challenges](https://wiki.advancedplugins.net/actions/placeholderapi-actions)
+-   [Items configuration](https://wiki.advancedplugins.net/configuration/config-items)
 
 ## General
 
