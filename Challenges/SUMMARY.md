@@ -22,14 +22,12 @@
 ## General
 
 -   [Commands](general/commands.md)
--   [Permissions](general/permissions.md)
 -   [PlaceholderAPI Placeholders](general/placeholderapi-placeholders.md)
 
 ## Features
 
 -   [Menu Actions](features/actions.md)
 -   [Boosters](features/boosters.md)
--   [Leaderboards](features/leaderboards.md)
 
 ## Developer API
 
