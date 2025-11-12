@@ -41,6 +41,14 @@ AdvancedJobs integrates seamlessly with PlaceholderAPI, offering a wide array of
             <td>Whether the player currently has the specified job active (<code>true</code> or <code>false</code>).</td>
         </tr>
         <tr>
+            <td><code>%advancedjobs_&#x3C;job>_progress%</code></td>
+            <td>The player's progress towards the next level in the specified job.</td>
+        </tr>
+        <tr>
+            <td><code>%advancedjobs_&#x3C;job>_required_progress%</code></td>
+            <td>The player's required progress towards the next level in the specified job.</td>
+        </tr>
+        <tr>
             <td><code>%advancedjobs_&#x3C;job>_percentage_progress%</code></td>
             <td>The player's progress percentage towards the next level in the specified job.</td>
         </tr>
