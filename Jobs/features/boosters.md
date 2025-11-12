@@ -7,7 +7,7 @@
 /aja boosters - List of all active boosters
 ```
 
-* hours can be decimal. I.e. 0.5 means 30 minutes
+-   hours can be decimal. I.e. 0.5 means 30 minutes
 
 ### **Possible "affects" arg**
 
@@ -75,4 +75,19 @@ Boosters have 3 different strategies. It's important when player has more than 1
 # - Player booster +7%
 # - Player booster +5%
 # Final booster: 10%
+```
+
+### Permission Boosters
+
+You can configure "permission boosters" in `plugins/AdvancedJobs/config.yml` in `permission-boosters` section.
+
+```yaml
+# Permission based boosters
+# Players with permission `advancedjobs.booster.<booster-id>` will get the booster
+# IMPORTANT: This boosters work only for ONLINE players.
+permission-boosters:
+    "extra25": #  Permission 'advancedjobs.booster.extra25'
+        percent: 25.0
+        affects: all
+        type: PROGRESS
 ```
