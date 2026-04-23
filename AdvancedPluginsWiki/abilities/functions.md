@@ -25,7 +25,7 @@ Example:
 
 ```yaml
 effects:
-- 'ADD_HEALTH:5 <condition>%victim health% < 10 : %allow%</condition>`
+- 'ADD_HEALTH:5 <condition>%victim health% < 10 : %allow%</condition>'
 ```
 
 This would add 2.5 hearts to victim's health if they had less than 5 hearts remaining.
