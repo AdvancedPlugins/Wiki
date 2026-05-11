@@ -29,6 +29,7 @@ layout:
 * [**left-click-block**](actions.md#left-click-block) - Left click a block
 * [**consume**](actions.md#consume) - Consume a consumable
 * [**craft**](actions.md#craft) - Craft items
+* [**smith**](actions.md#smith) - Smith items
 * [**damage-player**](actions.md#damage-player) - Deal damage to players
 * [**enchant**](actions.md#enchant) - Enchant an item using an enchant table
 * [**enchant-anvil**](actions.md#enchant-anvil) - Enchant an item using an anvil _(since v3.10)_
@@ -299,6 +300,12 @@ layout:
 **Triggered:** Whenever a player crafts an item.\
 \
 **Variable:** The crafted item's material.
+
+#### `smith`
+
+**Triggered:** Whenever a player smiths an item.\
+\
+**Variable:** The smithed item's material.
 
 #### `damage-player`
 

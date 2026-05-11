@@ -10,7 +10,7 @@ Crop block types have changed since 1.15. We're going to be explaining how to se
 
 First off, new crop block names are ([find full list of materials here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)):
 
-<table><thead><tr><th width="249.33333333333331"></th><th></th><th>States (Min-Max)</th></tr></thead><tbody><tr><td>Beetroots</td><td>BEETROOTS</td><td>0-3</td></tr><tr><td>Carrot</td><td>CARROT</td><td>0-7</td></tr><tr><td>Chorus Flower</td><td>CHORUS_FLOWER</td><td>0-5</td></tr><tr><td>Wheat</td><td>WHEAT</td><td>0-7</td></tr><tr><td>Nether Wart</td><td>NETHER_WART</td><td>0-3</td></tr><tr><td>Potatoes</td><td>POTATOES</td><td>0-7</td></tr></tbody></table>
+<table><thead><tr><th width="249.33333333333331"></th><th></th><th>States (Min-Max)</th></tr></thead><tbody><tr><td>Beetroots</td><td>BEETROOTS</td><td>0-3</td></tr><tr><td>Carrot</td><td>CARROTS</td><td>0-7</td></tr><tr><td>Chorus Flower</td><td>CHORUS_FLOWER</td><td>0-5</td></tr><tr><td>Wheat</td><td>WHEAT</td><td>0-7</td></tr><tr><td>Nether Wart</td><td>NETHER_WART</td><td>0-3</td></tr><tr><td>Potatoes</td><td>POTATOES</td><td>0-7</td></tr></tbody></table>
 
 
 
@@ -39,12 +39,12 @@ With this example, you are required to break 10 fully grown potato plants
 ```yaml
 quests:
   1:
-    name: 'Daily - Farmer' 
+    name: 'Daily - Farmer'
     type: harvest-crops
     variable: potatoes
-    required-progress: 10 
-    points: 10 
-    item: 
+    required-progress: 10
+    points: 10
+    item:
       material: diamond_pickaxe:0
       amount: 1
       name: '&eFarmer'
@@ -61,12 +61,12 @@ In this example, we're harvesting 10 of fully grown nether warts. Since it's max
 ```yml
 quests:
   1:
-    name: 'Daily - Farmer' 
+    name: 'Daily - Farmer'
     type: block-break
     variable: "nether_wart{age: 3}"
-    required-progress: 10 
-    points: 10 
-    item: 
+    required-progress: 10
+    points: 10
+    item:
       material: nether_wart:0
       amount: 1
       name: '&#x26;eFarmer'
@@ -75,5 +75,3 @@ quests:
         - ''
         - '&#x26;7Progress &#x26;e%total_progress%&#x26;7/&#x26;e%required_progress%'
 ```
-
-
